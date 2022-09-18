@@ -1205,7 +1205,7 @@ body::-webkit-scrollbar-track{
 }
 .body-game-like__container .card{
     height: 284px;
-    width: 340px !important; 
+    width: 352px !important; 
     padding: 0;
     border-radius: 7px;
     background-color: #1A1A1A;
@@ -1214,7 +1214,7 @@ body::-webkit-scrollbar-track{
 }
 .body-game-third__container .card{
     height: 284px;
-    width: 340px !important; 
+    width: 352px !important; 
     padding: 0;
     border-radius: 7px;
     background-color: #1A1A1A;
@@ -1240,8 +1240,8 @@ body::-webkit-scrollbar-track{
 }
 .card-game__play{
     position: absolute;
-    width: 348px;
-    height: 195px;
+    width: 350px;
+    height: 196px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     line-height: 195px;
@@ -1681,12 +1681,12 @@ body::-webkit-scrollbar-track{
     }
 @media (max-width:567px) {
     .body-main {
-        width: 100%;
+        width: 101%;
     }
 }
 @media (max-width:667px) {
     .body-container {
-        width: 101%;
+        width: 102%;
     }
     .body-main{
         padding-left: 15px;
@@ -1729,6 +1729,9 @@ body::-webkit-scrollbar-track{
     }   
 }
 @media (max-width: 1200px) {
+    .body-main {
+        width: 110%;
+    }
     .header-main-logo{
         margin-right: 20px;
     }
