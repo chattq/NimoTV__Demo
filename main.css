@@ -1235,12 +1235,12 @@ body::-webkit-scrollbar-track{
 }
 .card-body{
     display: flex;
-    padding: 10px !important;
+    padding:7px !important;
     justify-content: space-between;
 }
 .card-game__play{
     position: absolute;
-    width: 340px;
+    width: 348px;
     height: 195px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -1582,6 +1582,7 @@ body::-webkit-scrollbar-track{
     color: #5D5D5D;
     display: none;
     font-size: 23px;
+    border: none;
 }
 .header-search-reponsive{
     margin-left: 25px;
@@ -1678,7 +1679,15 @@ body::-webkit-scrollbar-track{
     .dropdown-menu li:hover a{
         opacity: 0.5;
     }
+@media (max-width:567px) {
+    .body-main {
+        width: 100%;
+    }
+}
 @media (max-width:667px) {
+    .body-container {
+        width: 101%;
+    }
     .body-main{
         padding-left: 15px;
     }
@@ -1705,7 +1714,7 @@ body::-webkit-scrollbar-track{
         padding-left: 33px;
     }
 }
-@media (max-width:735px){
+@media (max-width:736px){
     .body-game-third__container .card {
         width: 380px !important;
     }   
@@ -1727,7 +1736,6 @@ body::-webkit-scrollbar-track{
         display: flex;
         justify-content: space-between;
         padding-left: 15px;
-        width: 100%;
     }
     .header-main-navbar{
         display: none;
@@ -1804,10 +1812,12 @@ body::-webkit-scrollbar-track{
         top: -47px;
     }
     .topgame-tittle span{
-        font-size: 23px;
+        font-size: 28px;
+        font-weight: bolder;
+        
     }
     .body-main{
-        padding-left: 15px;
+        padding-left: 10px;
     }
     .body-game-select,
     .topgame-tittle{
@@ -1894,5 +1904,31 @@ body::-webkit-scrollbar-track{
     .li-first a:hover{
         color: gray;
     }
-    
+    .body-game-voice .tittle-voice,
+    .body-game-liveshow .tittle,
+    .body-game-gta5 .topgame-tittle,
+    .body-game-lol .tittle-lol,
+    .body-game-console .console-tittle,
+    .body-game-pubg .topgame-tittle,
+    .body-game-pubgmobile .pubgmobile-tittle,
+    .body-game-csgo .topgame-tittle,
+    .body-game-freefire .topgame-tittle,
+    .body-game-aov .aov-tittle,
+    .body-game-just .topgame-tittle,
+    .body-game-genshin .topgame-tittle,
+    .body-game-csgo .topgame-tittle,
+    .body-game-valorant .topgame-tittle
+    .chatting-tittle{
+       margin-top: 35px;
+       margin-left: 5px;
+    }
+    .body-game-select{
+        margin-left: 5px;
+    }
+    .body-game-third .body-game-select{
+        margin-left: 20px;
+    }
+    .body-topgame_list .topgame-tittle{
+        margin-left: 2px;
+    }
 }
