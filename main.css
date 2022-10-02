@@ -595,12 +595,6 @@ ul{
 .footer-category span:hover{
     color: #fff;
 }
-.footer-view{
-    color: #BFBFBF !important;
-    font-size: 11px;
-    margin-right: 20px;
-    margin-top: 5px;
-}
 .card-live-category{
     color: #fff;
     position: absolute;
@@ -910,9 +904,10 @@ ul{
     height: 15px;
 }
 .footer-view{
-    font-size: 13px;
-    font-weight: bold;
-    color: #fff;
+    color: #BFBFBF !important;
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 5px;
 }
 .footer-pro-live-btn span{
     color: #fff;
@@ -1393,6 +1388,11 @@ ul{
 .home-game-select{
     margin-top: 12px;
     margin-bottom: 25px;
+}
+.home-game-select span:hover{
+    color: #6C47FA;
+    border: 1px solid #6C47FA;
+    
 }
 .select-btn{
     background-color: #1A1A1A;
@@ -2370,4 +2370,17 @@ ul{
 }
 .dropdown-menu li:hover a{
     opacity: 0.5;
+}
+.card-container-all{
+    margin-top: 30px;
+}
+.blue{
+    background: #3061FB;
+    position: absolute;
+    left: 235px !important;
+}
+.gray{
+    position: absolute;
+    background-color: #3D48B0;
+    left: 270px !important;
 }
